@@ -55,7 +55,7 @@ GET localhost:8000/api/users/
 ## Authors
 
 * **Alexandre Pharamond** - *Initial work* - [aphara](https://github.com/aphara)
-* **Sébastien Quillet** - *Initial work* - [squillet](https://github.com/squillet)
+* **Sébastien Quillet** - *Initial work* - [sebquil](https://github.com/sebquil)
 
 ## Acknowledgments
 
