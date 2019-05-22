@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hw-alex
+spec:
+  selector:
+    matchLabels:
+      app: hw-alex
+  template:
+    metadata:
+      labels:
+        app: hw-alex
+    spec:
+      containers:
+      - name: hw-alex
+        image: tutum/hello-world
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
